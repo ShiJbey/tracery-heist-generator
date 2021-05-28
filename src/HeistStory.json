@@ -1,0 +1,53 @@
+{
+  "story": [
+    "#intro# #identifyScore# #assembleTeam# #recon# #prep# #mission# #twist# #resolution#"
+  ],
+  "intro": [
+    "Introduction"
+  ],
+  "assembleTeam": [
+    "You recruit from the old crew."
+  ],
+  "identifyScore": [
+    "gold"
+  ],
+  "motivation": [
+    "#robinHoodMotiv#",
+    "#selfishMotiv#"
+  ],
+  "robinHoodMotiv": [],
+  "robinHoodScore": [
+    "erase everyones student debt"
+  ],
+  "selfishMotiv": [],
+  "materialScore": [
+    "gold",
+    "diamonds",
+    "art",
+    "money"
+  ],
+  "recon": [
+    "stake out casino"
+  ],
+  "prep": [
+    "collect night vision."
+  ],
+  "mission": [
+    "raid casino."
+  ],
+  "twist": [
+    "Rico betrayed the crew."
+  ],
+  "resolution": [
+    "The money was in the walls."
+  ],
+  "characterName": [
+    "James",
+    "Ajun",
+    "Mandy",
+    "Astrid",
+    "Izza"
+  ],
+  "characterSpecialization": [],
+  "characterCodename": []
+}

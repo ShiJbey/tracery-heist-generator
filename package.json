@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "dependencies": {
+    "tracery-grammar": "^2.7.4"
+  },
+  "devDependencies": {
+    "@types/tracery-grammar": "^2.7.0"
+  }
+}

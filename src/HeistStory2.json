@@ -1,0 +1,17 @@
+{
+  "story": [
+    "#intro# #identifyScore#"
+  ],
+  "intro": [
+    "Your at the casino thinking of ways to get rich."
+  ],
+  "identifyScore": [
+    "You thing of all the #score# the casino has. With the right crew you could take all of it."
+  ],
+  "score": [
+    "gold",
+    "diamonds",
+    "art",
+    "money"
+  ]
+}
