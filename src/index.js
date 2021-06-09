@@ -1,5 +1,5 @@
 const tracery = require('tracery-grammar');
-const story = require('./HeistStory2.json');
+const story = require('./HeistStory.json');
 
 const grammar = tracery.createGrammar(story);
 

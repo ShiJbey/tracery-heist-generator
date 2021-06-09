@@ -1,17 +1,163 @@
 {
+  "origin": [
+    "#[#setHeistDetails#][vehicle:#car#]story#"
+  ],
+  "setHeistDetails": [
+    "[heistTarget:bank][heistScore:money,gold,diamonds][heistStrongBox:vault][heistSuccess:#bankSuccess#][heistTrap:#bankTrap#][objective:#bankObjective#][openStrongBox:#openVault#]",
+    "[heistTarget:server farm][heistScore:erase student debt][heistStrongBox:administrator teminal,main server][heistSuccess:#serverFarmSuccess#][heistTrap:#serverFarmTrap#][objective:#bankObjective#][openStrongBox:#hackTerminal#]"
+  ],
   "story": [
-    "#intro# #identifyScore#"
+    "#beginning#\n\n#middle#\n\n#end#\n\nTo be continued..."
   ],
-  "intro": [
-    "Your at the casino thinking of ways to get rich."
+  "beginning": [
+    "#firstSentence# The team is assembled, and everyone is ready to go. #planConfidence# You feel #stress#, the air #airDescription#. With each sway of the #vehicle#, you know you draw ever closer to your #destination#. You see #teammate# across from you. You lock eyes. In that moment that feels like #longTime#, you both understand that #mutualUnderstanding#. The #vehicle# comes to a stop. #takeABreath# #goTime# You’ve memorized every step, every turn. Your objective, #objective#. No hostages, no casualties, no slip-ups.\n"
   ],
-  "identifyScore": [
-    "You thing of all the #score# the casino has. With the right crew you could take all of it."
+  "goTime": [
+    "This is it!",
+    "It's go time!"
   ],
-  "score": [
+  "takeABreath": [
+    "",
+    "You take a breath."
+  ],
+  "destination": [
+    "destination",
+    "goal",
+    "target",
+    "destiny"
+  ],
+  "mutualUnderstanding": [
+    "nothing will be the same",
+    "you've come too far to turn back now",
+    "you are the only team who could pull this off",
+    "if you dont do this, there is no tomorrow",
+    "your friendship took you a lot of places, but never did you expect this",
+    "life is too short to live by someone else’s rules",
+    "today could end in either sweet success or terrible failure"
+  ],
+  "firstSentence": [
+    "It's finally happening.",
+    "Tonight is the night.",
+    "It's now or never!",
+    "This is no longer a game.",
+    "It's a shame that it had to come to this.",
+    "Oh No! your heart jumps into your throat as you hear a siren speeding towards you. #teammate# rests their hand on your shoulder. \"It is only a passing #emergencyVehicle#. Relax\"."
+  ],
+  "middle": [
+    "\n#passSecurityCheckpoint# Everyone is dressed #costumes#. #routeMemory#. Straight, two lefts, up the flight of stairs to the #floorNumber# floor, and take the 3rd door on your left. You stealthily make your way to the #heistStrongBox#. As the hacker, you get to work on the security lock. 3…2…1…Open!"
+  ],
+  "end": [
+    "#openStrongBox# #outcome#"
+  ],
+  "passSecurityCheckpoint": [
+    "You use the ID card you acquired from  the guard at the laundromat to get in through the #entrance# entrance.",
+    "The guard is off duty! Just as you planned. And they left the #entrance# door was left propped open with a brick.",
+    "The guard is asleep in their car. You all sneak past him unseen. The #entrance# door is locked. [locksmith:#teammate#] picks the lock on the door. They practiced this at home.",
+    "You hack into the #heistTarget#'s security and cut the camera feed for the #entrance# entrance. You have 30 seconds to make it inside. Just as you planned, everyone makes their way for the door."
+  ],
+  "planConfidence": [
+    "You all have been over the plan #countless#. Shoot, you could damn near run it in your sleep.",
+    "You've gone over the plan once or twice, but this couldn't wait any longer."
+  ],
+  "countless": [
+    "countless times",
+    "hundreds of times",
+    "more times than you can count"
+  ],
+  "openVault": [
+    "This is the moment that everyone has been waiting for. All the training has led up to this point. Everyone exchanges looks, you all hold your breath as #teammate# and #teammate# open the door to reveal the score. You can barely hear anything over your own heartbeat."
+  ],
+  "hackTerminal": [
+    "You begin uploading the virus to the system. *keyboard click clack* Enter! The progress bar appears in the terminal. When the upload is complete, every person in the country will be free of student debt. 25% … 40% … 75% … 97%."
+  ],
+  "outcome": [
+    "#heistSuccess#",
+    "#heistTrap#"
+  ],
+  "bankSuccess": [
+    "There they are. All the #materialScore# you can carry. You all raise a silent cheer. Everything is going change from now on."
+  ],
+  "serverFarmSuccess": [
+    "The loading bar reaches 100%. The hack is complete. #teammate# checks their federal loan account. It's completely zeroed-out. They look at you with a mix of joy and disbelief. The plan worked!"
+  ],
+  "bankTrap": [
+    "Theres nothing in the vault accept a note on the table. #teammate# picks picks it up in disgust. Oh no! They look up frantically and exclaim, \"It's a Trap!\""
+  ],
+  "serverFarmTrap": [
+    "Just as it is about to hit 100%, a message appears on the screen. They knew we were coming! It's a Trap!!"
+  ],
+  "costumes": [
+    "in all-black",
+    "as repair men",
+    "as armored truck personnel",
+    "as interns"
+  ],
+  "floorNumber": [
+    "2nd",
+    "3rd",
+    "4th",
+    "5th",
+    "Penthouse"
+  ],
+  "routeMemory": [
+    "You double check the map",
+    "You know the route by heart"
+  ],
+  "entrance": [
+    "side",
+    "back",
+    "staff",
+    "basement"
+  ],
+  "stress": [
+    "the weight of your body",
+    "the sweat rolling down your back"
+  ],
+  "longTime": [
+    "a lifetime",
+    "an eternity"
+  ],
+  "objective": [
+    "infiltrate the #heistTarget#, find the #heistStrongBox#, and #secondaryObjective#"
+  ],
+  "bankFinalObjective": [
+    "take the #heistScore#"
+  ],
+  "serverFarmObjective": [
+    "erase everyone’s student load debt"
+  ],
+  "materialScore": [
+    "money",
     "gold",
-    "diamonds",
-    "art",
-    "money"
+    "diamonds"
+  ],
+  "airDescription": [
+    "thick with anticipation",
+    "charged with excitement",
+    "gripped with frantic stillness"
+  ],
+  "emergencyVehicle": [
+    "firetruck",
+    "ambulance",
+    "police car"
+  ],
+  "car": [
+    "van",
+    "truck",
+    "vehicle"
+  ],
+  "teammate": [
+    "James",
+    "Ricky",
+    "Brittany",
+    "Astrid",
+    "Izza",
+    "Sal",
+    "Robin",
+    "John",
+    "Kenan",
+    "Gin",
+    "Riley",
+    "Franklin"
   ]
 }
